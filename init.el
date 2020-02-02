@@ -23,6 +23,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; turn off emacs annoying autosaves
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+
 ;; configuration options for ace-window
 (global-set-key (kbd "M-o") 'ace-window)
 (setq aw-disptach-always t)
